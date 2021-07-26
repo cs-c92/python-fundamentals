@@ -1,4 +1,4 @@
-for number in range(5):
+for number in range(3):
     print("Test", number + 1)
 
 summon = "Beetlejuice!"
