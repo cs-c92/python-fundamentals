@@ -11,3 +11,10 @@ while countdown >= 1:
     print(countdown, (countdown - 1) * "."); countdown -= 1
 print("Thunderbirds are go!")
 
+
+feed_the_bunny = ["Hay", "Kale", "Nuggets", "Herbs"]
+length = len(feed_the_bunny)
+index = 0
+while index < length:
+  print("You can feed a bunny " + feed_the_bunny[index])
+  index += 1
