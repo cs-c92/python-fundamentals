@@ -33,3 +33,6 @@ print(halved)
 # rounding
 halved_rounded = [round(ints) for ints in halved]
 print(halved_rounded)
+# conditionals
+cond_eg = [num for num in numbers if num > 15]
+print(cond_eg)
