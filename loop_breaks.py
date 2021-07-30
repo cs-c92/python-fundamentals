@@ -36,3 +36,13 @@ print(halved_rounded)
 # conditionals
 cond_eg = [num for num in numbers if num > 15]
 print(cond_eg)
+# squared and cubed
+squared =[]
+cubed = []
+for num in numbers:
+    print(num)
+    squared.append(num**2)
+    print(squared)
+    cubed.append(num**3)
+    print(cubed)
+
