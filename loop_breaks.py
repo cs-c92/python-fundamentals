@@ -28,3 +28,8 @@ print(numbers)
 # intro to list comprehension
 tripled = [nums * 3 for nums in numbers]
 print(tripled)
+halved = [halves / 2 for halves in tripled]
+print(halved)
+# rounding
+halved_rounded = [round(ints) for ints in halved]
+print(halved_rounded)
