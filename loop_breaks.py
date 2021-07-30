@@ -23,3 +23,8 @@ for location in ice_cream_sales:
         ice_cream_sold += sold
 print(ice_cream_sold)
 
+numbers = [14, 10, 21, 45, 67]
+print(numbers)
+# intro to list comprehension
+tripled = [nums * 3 for nums in numbers]
+print(tripled)
