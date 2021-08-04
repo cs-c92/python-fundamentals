@@ -15,3 +15,12 @@ def two_lists(one, two):
         return two[-1]
 two_lists([2, 4, 6, 8, 10], [1, 3, 4, 7, 9])
 print(two_lists([2, 4, 6, 8, 10], [1, 3, 4, 7, 9]))
+
+# count and if
+def favourite_flavours(list, item, n):
+    if list.count(item) > n:
+        return True
+    else:
+        return False
+favourite_flavours(["strawberry", "chocolate", "mint", "mint", "pistachio", "chocolate", "mint"], "mint", 2)
+print(favourite_flavours(["strawberry", "chocolate", "mint", "mint", "pistachio", "chocolate", "mint"], "mint", 2))
